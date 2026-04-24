@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "terminal": "terminala",
+    "projects": "proiektuak",
+    "architecture": "arkitektura",
+    "connect": "kontaktua",
+    "root": "root",
+    "src": "src",
+    "config": "konfigurazioa",
+    "logs": "logak"
+  },
+  "hero": {
+    "deployment_ready": "HEDAPENA_PREST: TRUE",
+    "greeting": "Ni {name} naiz.",
+    "subtitle": "Web Arkitektura Sendoak Eraikitzen Symfony & Vue.js-rekin.",
+    "description": "Senior Fullstack Garatzailea 10 urte baino gehiagoko esperientziarekin. Errendimendu handiko ekosistema digitalen ingeniaritzan espezializatua. Backend logika konplexutik Symfonyrekin, Vue.js interfaze erreaktiboetara.",
+    "view_projects": "IKUSI_PROIEKTUAK",
+    "get_in_touch": "KONTAKTUA(ni)",
+    "metrics_title": "// metrika_nagusiak",
+    "years_exp": "Urteko Esperientzia",
+    "commitment": "Kalitatearekiko Konpromisoa",
+    "location_label": "Gipuzkoa, Espainia"
+  },
+  "about": {
+    "title": "niri_buruz",
+    "headline": "Sistema {scalable} arkitektura teknikoz eraikitzen.",
+    "scalable": "eskalagarriak",
+    "description": "Fullstack garatzailea 10 urte baino gehiagoko esperientziarekin. Benetako inpaktua duten proiektuek, komunikazio ona duten taldeek eta iritzi teknikoak balio duen inguruneek motibatzen naute. Arkitektura sendo eta eskalagarrien garapenean espezializatua.",
+    "download_cv": "Deskargatu_CV",
+    "contact_me": "kontaktua_iosu()_",
+    "location": "KOKAPENA",
+    "languages": "HIZKUNTZAK",
+    "availability": "ERABILGARRITASUNA",
+    "open_to_projects": "PROIEKTUETARAKO PREST",
+    "tech_stack": "stack_nagusia",
+    "journey": "Ibilbide Profesionala",
+    "journey_subtitle": "ibilbide_profesionala",
+    "current": "GAUR EGUN",
+    "ready_to_scale": "Zure hurrengo ideia handia eskalatzeko prest?",
+    "ready_description": "Gaur egun proiektu berriak eta aholkularitza aukerak onartzen ditut. Eraiki dezagun zerbait aparta elkarrekin.",
+    "initiate_contact": "kontaktua_hasi()"
+  },
+  "projects": {
+    "title": "proiektuak.src",
+    "description": "Symfony, Vue.js eta Docker-ekin garatutako proiektu pertsonalen eta arkitektura soluzioen aukeraketa.",
+    "status_stable": "EGONKORRA_V4.2",
+    "status_production": "PRODUKZIOAN",
+    "challenge": "Deskribapena",
+    "tech_stack": "Tech Stack",
+    "visit_site": "BISITATU GUNEA"
+  },
+  "contact": {
+    "status": "Egoera: Erronka berrietarako prest",
+    "headline": "Hitz egin dezagun zure {architectural}-ri buruz.",
+    "architectural": "hurrengo erronka",
+    "description": "Symfony backend sendo bat, Vue.js interfaze erreaktibo bat edo sistema arkitektura oso bat behar baduzu, lankidetzarako eta proiektu espezializatuetarako prest nago.",
+    "form_title": "kontaktu_formularioa",
+    "name_label": "izen_osoa",
+    "email_label": "posta_elektronikoa",
+    "message_label": "mezua",
+    "send_button": "Bidali _",
+    "location_label": "Donostia, Gipuzkoa (Espainia)"
+  },
+  "footer": {
+    "compiled_by": "garatzaileak_konpilatua(iosu_lazcano).sh",
+    "documentation": "dokumentazioa",
+    "api_v1": "api_v1",
+    "status": "egoera",
+    "system_operational": "SISTEMA_OPERATIBOA"
+  }
+}

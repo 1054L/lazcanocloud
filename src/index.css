@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary-fixed-dim: #ffb3b5;
+  --color-on-primary-fixed: #002113;
+  --color-background: #131313;
+  --color-on-secondary: #002e68;
+  --color-surface-container-low: #1c1b1b;
+  --color-on-background: #e5e2e1;
+  --color-on-tertiary-container: #6f1925;
+  --color-surface-dim: #131313;
+  --color-error: #ffb4ab;
+  --color-on-primary-container: #00432a;
+  --color-on-error: #690005;
+  --color-inverse-on-surface: #313030;
+  --color-on-secondary-fixed: #001a41;
+  --color-primary-fixed-dim: #68dca4;
+  --color-on-secondary-fixed-variant: #004493;
+  --color-on-surface-variant: #bccabf;
+  --color-primary-fixed: #85f9be;
+  --color-inverse-primary: #006c47;
+  --color-secondary: #adc7ff;
+  --color-surface-tint: #68dca4;
+  --color-on-tertiary-fixed-variant: #802630;
+  --color-surface-container-highest: #353534;
+  --color-on-tertiary: #620f1c;
+  --color-secondary-container: #4a8eff;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-bright: #3a3939;
+  --color-outline-variant: #3d4a42;
+  --color-outline: #87948a;
+  --color-on-secondary-container: #00285b;
+  --color-primary-container: #41b883;
+  --color-inverse-surface: #e5e2e1;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-surface: #e5e2e1;
+  --color-surface-variant: #353534;
+  --color-secondary-fixed-dim: #adc7ff;
+  --color-tertiary-container: #f68188;
+  --color-tertiary-fixed: #ffdada;
+  --color-on-primary: #003823;
+  --color-on-error-container: #ffdad6;
+  --color-surface-container: #201f1f;
+  --color-surface: #131313;
+  --color-tertiary: #ffb3b5;
+  --color-error-container: #93000a;
+  --color-secondary-fixed: #d8e2ff;
+  --color-on-tertiary-fixed: #40000b;
+  --color-on-primary-fixed-variant: #005234;
+  --color-primary: #68dca4;
+
+  --font-display-lg: "Inter", sans-serif;
+  --font-headline-md: "Inter", sans-serif;
+  --font-label-tech: "Space Grotesk", sans-serif;
+  --font-body-base: "Inter", sans-serif;
+  --font-code-snippet: "JetBrains Mono", monospace;
+  
+  --spacing-xl: 80px;
+  --spacing-grid-gutter: 24px;
+  --spacing-xs: 4px;
+  --spacing-md: 24px;
+  --spacing-base: 8px;
+  --spacing-lg: 48px;
+  --spacing-sm: 12px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body-base selection:bg-primary-container selection:text-on-primary-container;
+  }
+}
+
+@layer utilities {
+  .bg-dot-grid {
+    background-image: radial-gradient(#262626 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  
+  .cursor-terminal { 
+    cursor: crosshair; 
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

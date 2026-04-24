@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "terminal": "terminal",
+    "projects": "projects",
+    "architecture": "architecture",
+    "connect": "connect",
+    "root": "root",
+    "src": "src",
+    "config": "config",
+    "logs": "logs"
+  },
+  "hero": {
+    "deployment_ready": "DEPLOYMENT_READY: TRUE",
+    "greeting": "I'm {name}.",
+    "subtitle": "Building Robust Web Architectures with Symfony & Vue.js.",
+    "description": "Senior Fullstack Developer with over 10 years of experience. I specialize in engineering high-performance digital ecosystems. From complex backend logic in PHP/Symfony to reactive interfaces in Vue.js, my focus is on functional aesthetics and scalable code.",
+    "view_projects": "VIEW_PROJECTS",
+    "get_in_touch": "GET_IN_TOUCH(me)",
+    "metrics_title": "// key_metrics",
+    "years_exp": "Years Experience",
+    "commitment": "Commitment to Quality",
+    "location_label": "Gipuzkoa, Spain"
+  },
+  "about": {
+    "title": "about_me",
+    "headline": "Architecting {scalable} systems with technical precision.",
+    "scalable": "scalable",
+    "description": "Fullstack developer with more than 10 years of experience. I am motivated by projects with real impact, teams with good communication and environments where technical opinion counts. Specialized in the development of robust and scalable architectures.",
+    "download_cv": "Download_CV",
+    "contact_me": "contact_iosu()_",
+    "location": "LOCATION",
+    "languages": "LANGUAGES",
+    "availability": "AVAILABILITY",
+    "open_to_projects": "OPEN TO PROJECTS",
+    "tech_stack": "core_stack",
+    "journey": "Professional Journey",
+    "journey_subtitle": "professional_journey",
+    "current": "PRESENT",
+    "ready_to_scale": "Ready to scale your next big idea?",
+    "ready_description": "I'm currently accepting new projects and consulting opportunities. Let's build something exceptional together.",
+    "initiate_contact": "initiate_contact()"
+  },
+  "projects": {
+    "title": "projects.src",
+    "description": "Selection of personal projects and architectural solutions developed with Symfony, Vue.js and Docker.",
+    "status_stable": "STABLE_V4.2",
+    "status_production": "IN PRODUCTION",
+    "challenge": "Description",
+    "tech_stack": "Tech Stack",
+    "visit_site": "VISIT SITE"
+  },
+  "contact": {
+    "status": "Status: Available for new challenges",
+    "headline": "Let's build something {architectural}.",
+    "architectural": "architectural",
+    "description": "If you need a robust Symfony backend, a reactive Vue.js interface or a complete systems architecture, I am open to collaborations and specialized projects.",
+    "form_title": "contact_form",
+    "name_label": "full_name",
+    "email_label": "email_address",
+    "message_label": "message_body",
+    "send_button": "Execute _",
+    "location_label": "Donostia, Gipuzkoa (Spain)"
+  },
+  "footer": {
+    "compiled_by": "compiled_by(iosu_lazcano).sh",
+    "documentation": "documentation",
+    "api_v1": "api_v1",
+    "status": "status",
+    "system_operational": "SYSTEM_OPERATIONAL"
+  }
+}
