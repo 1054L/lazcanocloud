@@ -1,0 +1,13 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile.prod
+    restart: always
+    networks:
+      - proxy
+      
+networks:
+  proxy:
+    external: true
+    name: mus_proxy
