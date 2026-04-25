@@ -101,13 +101,6 @@ onUnmounted(() => {
           {{ $t('nav.logs') }}
         </a>
       </nav>
-
-      <div class="p-8 border-t border-zinc-900">
-        <div class="flex gap-6">
-          <span class="material-symbols-outlined text-zinc-600 hover:text-emerald-400 transition-colors cursor-pointer">terminal</span>
-          <span class="material-symbols-outlined text-zinc-600 hover:text-emerald-400 transition-colors cursor-pointer">monitoring</span>
-        </div>
-      </div>
     </aside>
 
     <!-- Overlay for mobile -->
