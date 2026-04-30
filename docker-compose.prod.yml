@@ -4,9 +4,13 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
+    expose:
+      - "80"
     networks:
-      - proxy
-
+      proxy:
+        aliases:
+          - lazcanocloud-web
 networks:
   proxy:
     external: true
+    name: mus_proxy
