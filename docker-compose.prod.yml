@@ -4,8 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    expose:
-      - "80"
+    ports:
+      - "18532:80"
     networks:
       proxy:
         aliases:
